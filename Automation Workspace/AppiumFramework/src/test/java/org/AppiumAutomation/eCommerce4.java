@@ -70,6 +70,7 @@ public class eCommerce4 extends AppiumConfiguration{
 		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		driver.context("NATIVE_APP");
+//		this a comment written to learn GitHub
 
 		
 		
